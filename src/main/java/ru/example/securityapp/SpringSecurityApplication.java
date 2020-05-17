@@ -6,24 +6,24 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class TestTaskApplication extends SpringBootServletInitializer {
+public class SpringSecurityApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestTaskApplication.class, args);
+        SpringApplication.run(SpringSecurityApplication.class, args);
     }
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(TestTaskApplication.class);
+        return builder.sources(SpringSecurityApplication.class);
     }
 
 }
 
 //@SpringBootApplication
-//public class TestTaskApplication {
+//public class SpringSecurityApplication {
 //
 //    public static void main(String[] args) {
-//        SpringApplication.run(TestTaskApplication.class, args);
+//        SpringApplication.run(SpringSecurityApplication.class, args);
 //    }
 //
 //}
