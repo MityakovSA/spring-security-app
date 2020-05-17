@@ -1,0 +1,51 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+# Файлы IDEA и Eclipse
+.project
+.classpath
+.settings/
+.xml/
+*.iml
+.idea/
+
+# Выходные папки
+bin/
+target/
+
+# Файлы maven
+dependency-reduced-pom.xml
+
+# Временные файлы
+~*.doc
+~*.docx
+$*/
